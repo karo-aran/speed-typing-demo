@@ -1,0 +1,5 @@
+/* prevents weird spacing on page */
+* {
+    margin: 0;
+}
+
