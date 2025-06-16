@@ -3,18 +3,49 @@
 <head>
     <!-- link stylesheet -->
 
+    <!-- font styling -->
+
     <title>Typing Test</title>
 </head>
     <body>
         <!-- header that stores intro and stats info -->
+        <div class="header">
 
+            <!-- left side of the header (intro section) -->
+            <div class="intro">
+                <!-- instructions -->
+                <div class="instructions">
+                    <p> Type as many words as you can in a minute! </p>
+                </div>
+                <!-- start button -->
+                <div class="btnContainer">
+                    <p class="startBtn">START</p>
+                </div>
+            </div>
 
+            <!-- right side of the header (stats section) -->
+            <div class="stats">
+                <!-- location for the time -->
+                <div class="timeContainer">
+                    <p>Time left: </p>
+                    <span class="time">60</span>
+                </div>
 
+                <!-- location for the score -->
+                <div class="scoreContainer">
+                    <p>Score: </p>
+                    <span class="score">0</span>
+                </div>
+            </div>
 
+        </div>
 
         <!-- testContainer where the test word appears -->
-
-        
+        <div class="testContainer">
+            <!-- location of the test word -->
+            <p class="test"></p>
+        </div>
     </body>
     <!-- link javascript -->
+    
 </html>
