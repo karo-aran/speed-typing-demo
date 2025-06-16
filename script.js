@@ -1,1 +1,12 @@
 // define variables
+
+
+
+
+
+
+
+
+
+
+// define functions
