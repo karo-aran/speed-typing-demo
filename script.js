@@ -46,10 +46,22 @@ let list = ["the","quick","brown","fox","jumps","over","the","lazy","dog"];
  * btn event listener
  * 
  */
+// button must start countdown and produce random word
+btn.addEventListener("click", function() {
+    //prevents restarting mid-game
+    if (game_active === true) {
+        return;
+    }
+    //prevents button double click/ further clicks
+    // btn.disabled = true; //unnecessary
+    // status of if there is a game/round that is ongoing
+    game_active = true;
 
-
-
-
+    // functions that allow for countdown timer
+    // function for random word generation
+    countdown();
+    random_word();
+});
 
 /*
  *
