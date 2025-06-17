@@ -14,12 +14,45 @@ body {
  *
  */
 
+/* allows for content in header (aka intro and stats divs) to be horizontal */
+.header {
+    background-color: #484848;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
 
+/* intro takes up 50% of the header */
+.intro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+/* changes instructions styling */
+.instructions {
+    padding: 25px;
+    color: white;
+    font-size: 24px;
+}
+/* changes START button styling */
+.startBtn {
+    background-color: #E98300;
+    color: #333333;
+    padding: 10px 40px 10px 40px; /* top right bottom left */
+    font-size: 24px;
+}
 
-
-
-
+/* allows for score and time left components to be horizontal */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
 
 /* styles the score */
 /* allows score label and score itself to be horizontal */
