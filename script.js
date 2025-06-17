@@ -12,3 +12,56 @@ let points = 0;
 let typed;
 // spans hold individual letters of the test word
 let spans;
+// keeps track of when the game is active (to prevent double starting the game)
+let game_active = false;
+
+// make your list of test words here
+// you may change the existing words
+let list = ["the","quick","brown","fox","jumps","over","the","lazy","dog"];
+
+/*
+ *
+ * countdown()
+ * 
+ */
+
+
+
+
+
+
+
+/*
+ *
+ * random_word()
+ * 
+ */
+
+
+
+
+
+/*
+ *
+ * btn event listener
+ * 
+ */
+
+
+
+
+
+/*
+ *
+ * typing(event)
+ * 
+ */
+
+
+
+
+
+
+
+//enables keyboard input (default)
+document.addEventListener("keydown", typing, false);

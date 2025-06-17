@@ -2,4 +2,42 @@
 * {
     margin: 0;
 }
+body {
+    background-color: #333333;
+    /* font styling here */
 
+}
+
+/*
+ *
+ * HEADER
+ *
+ */
+
+
+
+
+
+
+
+
+
+
+/*
+ *
+ * TEST
+ *
+ */
+
+/* styles the word that will be typed */
+.testContainer {
+    width: auto;
+    height: 75vh;
+    align-content: center;
+    text-align: center;
+}
+/* styles tested word */
+.test {
+    font-size: 20vw;
+    color: white;
+}
