@@ -21,7 +21,31 @@ body {
 
 
 
+/* styles the score */
+/* allows score label and score itself to be horizontal */
+.scoreContainer {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.score {
+    color: #E98300;
+    font-size: 36px;
+    margin-left: 15px;
+}
 
+/* styles the time left */
+/* allows time label and time itself to be horizontal */
+.timeContainer {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.time {
+    color: #E98300;
+    font-size: 36px;
+    margin-left: 15px;
+}
 
 /*
  *
