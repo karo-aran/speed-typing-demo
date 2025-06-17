@@ -57,8 +57,8 @@ btn.addEventListener("click", function() {
     // status of if there is a game/round that is ongoing
     game_active = true;
 
-    // functions that allow for countdown timer
-    // function for random word generation
+    // uses/calls function that allow for countdown timer
+    // uses/calls function for random word generation
     countdown();
     random_word();
 });
