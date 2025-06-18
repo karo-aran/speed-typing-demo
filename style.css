@@ -4,9 +4,11 @@
 }
 body {
     background-color: #333333;
-    /* font styling here */
-
+    font-family: "Outfit", sans-serif; 
+    font-weight: 700;
+    font-style: normal;
 }
+
 
 /*
  *
@@ -21,6 +23,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+.instructions p {
+    font-size: 20px;
 }
 
 /* intro takes up 50% of the header */
@@ -40,10 +46,15 @@ body {
 }
 /* changes START button styling */
 .startBtn {
-    background-color: #E98300;
-    color: #333333;
+    background-color: #e90078;
+    color: #dbc2cf;
     padding: 10px 40px 10px 40px; /* top right bottom left */
     font-size: 24px;
+}
+
+.startBtn:hover {
+    background-color: #dbc2cf;
+    color: #e90078;
 }
 
 /* allows for score and time left components to be horizontal */
@@ -62,7 +73,7 @@ body {
     align-items: center;
 }
 .score {
-    color: #E98300;
+    color: #e90078;
     font-size: 36px;
     margin-left: 15px;
 }
@@ -75,7 +86,7 @@ body {
     align-items: center;
 }
 .time {
-    color: #E98300;
+    color: #e90078;
     font-size: 36px;
     margin-left: 15px;
 }
